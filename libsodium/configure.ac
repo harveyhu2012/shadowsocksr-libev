@@ -350,7 +350,7 @@ AS_IF([test "x$with_threads" = "xyes"], [
   AX_TLS([AC_MSG_RESULT(thread local storage is supported)],
          [AC_MSG_RESULT(thread local storage is not supported)]) ])
 
-LT_INIT
+LT_INIT([disable-shared])
 AC_SUBST(LIBTOOL_DEPS)
 
 AC_ARG_VAR([AR], [path to the ar utility])

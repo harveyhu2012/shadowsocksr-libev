@@ -19,7 +19,6 @@ if test -z "$orig_CFLAGS"; then
 fi
 
 AC_PROG_INSTALL
-AC_DISABLE_STATIC
 AC_PROG_LIBTOOL
 
 m4_include([libev.m4])
